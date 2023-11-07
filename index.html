@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App With JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" id="input-box">
+
+                <img src="images/search.png" alt="">
+            </div>
+          </div>
+        <div class="mid">
+          <img class="mainimg" id="wheather-img" src="images/clouds.png" alt="">
+          <div class="temp">
+            <h1 id="temperature" style="color: white;"></h1>
+            <h4 id="country" style="color: white; font-weight: 100;"></h4>
+          </div>
+        </div>
+        <div class="foot">
+          <div class="humid">
+            <img class="data" src="images/humidity.png" alt="">
+            <div class="info1">
+              <div class="det1">
+                <h3 id="humidity"></h3>
+              </div>
+              <div class="letter1">
+                <h3 style="margin-top: 11px;">humidity</h3>
+              </div>
+            </div>
+          </div>
+          <div class="humid">
+            <img class="data" src="images/wind.png" alt="">
+            <div class="info2">
+              <div class="det2">
+                <h3 id="wind"></h3>
+              </div>
+              <div class="letter2">
+                <h3 style="margin-top: 11px;">wind speed</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/595a890311.js" crossorigin="anonymous"></script>
+</body>
+</html>
